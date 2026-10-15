@@ -32,8 +32,6 @@
     margin-bottom: 20px;
 }
 section {
-    width: 80%;
-    margin: auto;
     text-align: center;
     padding-top: 100px;
 }
@@ -188,8 +186,6 @@ header.hero-btn::before {
 /* End header */
 /* Start courses */
 .courses {
-    width: 80%;
-    margin: auto;
     padding-top: 100px;
 }
 @media (max-width:767px) {
@@ -368,10 +364,9 @@ header.hero-btn::before {
 /* End student */
 /*Start contact */
 .contact {
-    width: 80%;
-    margin: auto;
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 100px;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7),
     rgba(4, 9, 30, 0.7)), url(../imges/banner2.jpg);
     background-size: cover;
@@ -479,11 +474,14 @@ header.hero-btn::before {
 /* End content-about */
 /* Start  blog */
 .blog {
+    padding-top: 50px;
+}
+.blog .blog-wrapper {
     display: flex;
     gap: 20px;
 }
 @media (max-width:767px) {
-    .blog {
+    .blog .blog-wrapper {
         flex-direction: column;
     }
 }
